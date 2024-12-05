@@ -1,5 +1,5 @@
 article {
-    background-color: rgb(237, 236, 236);
+    background-color: rgb(255, 255, 255);
     display: flex;
 }
 
@@ -11,6 +11,9 @@ article {
 .right-zone {
     width: 50%;
     border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 app-progress-bar {
